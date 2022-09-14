@@ -63,7 +63,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -76,7 +75,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This was a fantastic React tutorial by Chris Pennington on [YouTube](Rapidapi.com/t14ha70d/api/usda/details). The name of the channel is [Coding in Public](https://www.youtube.com/c/CodinginPublic). If you haven't checked out his channel I urge you to do so.
+This was a fantastic React tutorial by Chris Pennington on [YouTube](https://www.youtube.com/watch?v=yjRv73QZ7tw). The name of the channel is [Coding in Public](https://www.youtube.com/c/CodinginPublic). If you haven't checked out his channel I urge you to do so.
 The application has both a light and a dark mode and you settings are all saved to local storage so the settings are remembered from you last session. You can also change to hue of the colors in either light or dark mode.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -87,6 +86,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [Vite.js](https://vitejs.dev/)
 * [React.js](https://reactjs.org/)
+* [@heroicons/react](https://heroicons.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -104,48 +104,33 @@ Make sure you have the latest version of Node.js before proceeding
 1. Clone the repo
   
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/drobb2020/react-todo-app-with-local-storage
    ```
+
 2. Install NPM packages
+
    ```sh
-   npm install
+   pnpm install
    ```
-3. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+
+3. Use the following command to start the app
+
+   ```sh
+   pnpm run dev
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+This is a basic todo app where you can add, mark complete, edit, or delete a task.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-* [X] Add Changelog
-* [X] Add back to top links
-* [ ] Add Additional Templates w/ Examples
-* [ ] Add "components" document to easily copy & paste sections of the readme
-* [ ] Multi-language Support
-    * [ ] Chinese
-    * [ ] Spanish
-
-See the [open issues](https://github.com/drobb2020/drobb-README-template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/drobb2020/react-todo-app-with-local-storage) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -163,8 +148,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -172,23 +155,21 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
 Your Name - [@davidrobb2](https://twitter.com/davidrobb2) - drobb2011@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/drobb2020/repo_name)
+Project Link: [https://github.com/drobb2020/react-todo-app-with-local-storage](https://github.com/drobb2020/react-todo-app-with-local-storage)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Chris Pennington deserves the recognition for this React application. It is quite evident that he has placed a great deal of effort into this tutorial. This is a great introductory React project that anyone can learn a great deal from. I particularly like it that he did not simply use bootstrap to style the project but took the time to create his own style.
+
+### Other Resources
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
@@ -196,26 +177,22 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/drobb2020/drobb-README-template.svg?style=for-the-badge
-[contributors-url]: https://github.com/drobb2020/drobb-README-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/drobb2020/drobb-README-template.svg?style=for-the-badge
-[forks-url]: https://github.com/drobb2020/drobb-README-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/drobb2020/drobb-README-template.svg?style=for-the-badge
-[stars-url]: https://github.com/drobb2020/drobb-README-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/drobb2020/drobb-README-template.svg?style=for-the-badge
-[issues-url]: https://github.com/drobb2020/drobb-README-template/issues
-[license-shield]: https://img.shields.io/github/license/drobb2020/drobb-README-template.svg?style=for-the-badge
-[license-url]: https://github.com/drobb2020/drobb-README-template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/drobb2020/react-todo-app-with-local-storage.svg?style=for-the-badge
+[contributors-url]: https://github.com/drobb2020/react-todo-app-with-local-storage/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/drobb2020/react-todo-app-with-local-storage.svg?style=for-the-badge
+[forks-url]: https://github.com/drobb2020/react-todo-app-with-local-storage/network/members
+[stars-shield]: https://img.shields.io/github/stars/drobb2020/react-todo-app-with-local-storage.svg?style=for-the-badge
+[stars-url]: https://github.com/drobb2020/react-todo-app-with-local-storage/stargazers
+[issues-shield]: https://img.shields.io/github/issues/drobb2020/react-todo-app-with-local-storage.svg?style=for-the-badge
+[issues-url]: https://github.com/drobb2020/react-todo-app-with-local-storage/issues
+[license-shield]: https://img.shields.io/github/license/drobb2020/react-todo-app-with-local-storage.svg?style=for-the-badge
+[license-url]: https://github.com/drobb2020/react-todo-app-with-local-storage/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[logo]: images/logo-md.jpg
